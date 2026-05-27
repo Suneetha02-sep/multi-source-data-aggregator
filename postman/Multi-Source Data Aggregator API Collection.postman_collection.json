@@ -1,0 +1,95 @@
+{
+  "info": {
+    "_postman_id": "0b0ec3af-4648-4787-bb76-bfaa0b5f3279",
+    "name": "Multi-Source Data Aggregator API Collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "47667700",
+    "_collection_link": "https://go.postman.co/collection/47667700-0b0ec3af-4648-4787-bb76-bfaa0b5f3279?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "GET User API",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/users/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "users",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "GET User Posts API",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/users/1/posts",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "users",
+            "1",
+            "posts"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "GET Recommendations API",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/recommendations",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "recommendations"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "GET Aggregate API",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/aggregate/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "aggregate",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

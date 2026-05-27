@@ -1,0 +1,23 @@
+{
+  "name": "multi-source-data-aggregator",
+  "version": "1.0.0",
+  "description": "Assignment 2 - Multi Source Data Aggregator using MVC Architecture",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node app.js"
+  },
+  "keywords": [
+    "mvc",
+    "nodejs",
+    "express",
+    "api",
+    "aggregator"
+  ],
+  "author": "Suneetha",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
